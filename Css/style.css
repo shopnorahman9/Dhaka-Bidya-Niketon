@@ -287,4 +287,7 @@ footer{
 .info-btn{
     text-align: center;
 }
+.logo img{
+    width: 35%;
+}
 }
