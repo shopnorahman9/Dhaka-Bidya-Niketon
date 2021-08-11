@@ -199,7 +199,7 @@
     margin: 14px auto;
 }
 .form input{
-    width: 100%;
+    width: 85%;
     padding: 5px;
     font-size: 17px;
     border: 2px solid grey;
@@ -209,7 +209,7 @@
 textarea{
     padding: 12px;
     margin: 1px 10px;
-    width: 95%;
+    width:78%;
 }
 .submit-btn{
     padding: 14px;
@@ -225,6 +225,9 @@ textarea{
     color: white;
     background: black;
 }
+footer{
+    width: 100%;
+}
 .text-footer{
     font-size: 1.1rem;
     text-align: center;
@@ -233,6 +236,9 @@ textarea{
     font-family: Arial, Helvetica, sans-serif;
 }
 @media only screen and (max-width:1100px) {
+    *{
+        max-width: 100%;
+    }
 .list-item{
     flex-direction: column;
 }
@@ -247,6 +253,9 @@ textarea{
 .burger{
     display: block;
 }
+.form{
+    width: 100%;
+}
 .h-nav{
     height: 50px;
 }
@@ -256,12 +265,15 @@ textarea{
 .box-main{
     flex-direction: column-reverse;
     width: 100%;
+    height: 100%;
 }
 .section{
     flex-direction: column-reverse;
+    width: 100%;
 }
 .first-section{
     width: 100%;
+    height: 100%;
 }
 .paras{
     width: 100%;
