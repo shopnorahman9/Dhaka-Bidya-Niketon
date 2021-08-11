@@ -259,6 +259,9 @@ footer{
 .h-nav{
     height: 50px;
 }
+#search{
+    width: 100%;
+}
 .visable{
     opacity: 0;
 }
